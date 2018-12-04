@@ -1,0 +1,29 @@
+.con-item {
+    margin: 35px 10%;
+    /* border:1px solid red; */
+}
+.con-item .img-box{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+}
+.con-item:first-child .img-box img{
+    width:78%;
+}
+.con-item h2,
+.con-item p{
+    text-align: center;
+    line-height:18px;
+}
+.con-item h2{
+    padding:8px 0;
+    font-size: 16px;
+}
+.con-item:last-of-type .img-box img{
+    width: 60%;
+}
+.descript{
+    margin: 0 10%;
+    color:#999;
+    line-height:25px;
+}
