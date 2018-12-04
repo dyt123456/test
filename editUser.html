@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改人数</title>
+    <style>
+        .person-num{
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="person-num">
+        <!--四个边角的icon-->
+        <div class="icon-wrap">
+            <div class="icon-item item-top item-top-left"></div>
+            <div class="icon-item item-top item-top-right"></div>
+            <div class="icon-item item-bottom item-left-bottom"></div>
+            <div class="icon-item item-bottom item-right-bottom"></div>
+        </div>
+        <div class="content">
+            <div class="head-img"><img :src="headImg" width="150" /></div>
+            <p class="title">修改信息</p>
+            <div class="luncheon">
+                <h2>午宴</h2>
+                <div class="select-box">
+                    <div class="option" data-value="1">
+                        <div class="icon"></div> 1人参加
+                    </div>
+                    <div class="option" data-value="2">
+                        <div class="icon"></div> 2人参加
+                    </div>
+                    <div class="option" data-value="3">
+                        <div class="icon"></div> 3人参加
+                    </div>
+                    <div class="option" data-value="4">
+                        <div class="icon"></div> 4人参加
+                    </div>
+                    <div class="option" data-value="5">
+                        <div class="icon"></div> 5人参加
+                    </div>
+                    <div class="option" data-value="6">
+                        <div class="icon"></div> 6人参加
+                    </div>
+                </div>
+            </div>
+
+            <div class="luncheon">
+                <h2>晚宴</h2>
+                <div class="select-box">
+                    <div class="option" data-value="1">
+                        <div class="icon"></div> 1人参加
+                    </div>
+                    <div class="option" data-value="2">
+                        <div class="icon"></div> 2人参加
+                    </div>
+                    <div class="option" data-value="3">
+                        <div class="icon"></div> 3人参加
+                    </div>
+                    <div class="option" data-value="4">
+                        <div class="icon"></div> 4人参加
+                    </div>
+                    <div class="option" data-value="5">
+                        <div class="icon"></div> 5人参加
+                    </div>
+                    <div class="option" data-value="6">
+                        <div class="icon"></div> 6人参加
+                    </div>
+                    <div class="option" data-value="0">
+                        <div class="icon"></div> 不参加
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" @click="submit()">提交</button>
+
+            <footer></footer>
+        </div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script>
+
+</script>
+
+</html>
